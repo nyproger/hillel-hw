@@ -1,8 +1,9 @@
-let number = prompt('Введите число');
-let number2 = prompt('Введите число');
+let numberOne = prompt('Введите число');
+let numberTwo = prompt('Введите число');
 
-alert (+number + +number2);
-alert (+number - +number2);
-alert (+number * +number2);
-alert (+number / +number2);
+alert (`${numberOne}+ ${numberTwo}= ${+numberOne + +numberTwo}
+${numberOne}- ${numberTwo}= ${+numberOne - +numberTwo}
+${numberOne}* ${numberTwo}= ${+numberOne * +numberTwo}
+${numberOne}/ ${numberTwo}= ${+numberOne / +numberTwo}`);
+
 
